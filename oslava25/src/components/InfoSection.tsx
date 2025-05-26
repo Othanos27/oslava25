@@ -28,18 +28,21 @@ export function InfoSection() {
         <p>
           Laškovská louka. Tu už určitě znáte z předchozích oslav. Pro jistotu
           tady máte mapku. Kdybyste ani tak nevěděli, jak se na oslavu dostat,
-          mrkněte <Link href="#">sem</Link>.{" "}
-          <i>(TODO: odkaz někam níž, budou tam instrukce)</i>
+          nebo jste tam nikdy nebyli a zajímá vás, jaké je tam zázemí, mrkněte{" "}
+          <Link href="#moreInfo">sem</Link>.{" "}
         </p>
         <Map />
       </InfoBox>
       <Divider />
       <InfoBox label="Co s sebou?">
         <ul style={{ listStyleType: "none", lineHeight: "1.25rem" }}>
-          <li>Tvrdej, nealko a jídlo</li>
           <li>Něco na pivo (krygl nebo kelímek)</li>
           <li>Spacák a karimatku</li>
           <li>Stan, plachtu, hamaku, ...</li>
+          <li>
+            Tvrdej a jídlo (podrobněji <Link href="#moreInfo">zde</Link>)
+          </li>
+          <li>Kytaru nebo jiný nástroj</li>
           <li>Partnera či partnerku</li>
         </ul>
       </InfoBox>
@@ -140,12 +143,13 @@ const BUTTON_SX = {
   display: "block",
   margin: "1rem auto 0 auto",
   justifyContent: "center",
-    textAlign: "center",
+  textAlign: "center",
   marginTop: "1rem",
   backgroundColor: theme.palette.secondary.main,
   color: theme.palette.background.default,
   padding: ".5rem",
   borderRadius: "1rem",
+  transition: "background-color 0.3s ease, color 0.5s ease",
   "&:hover": {
     backgroundColor: theme.palette.link.main,
     color: theme.palette.primary.main,

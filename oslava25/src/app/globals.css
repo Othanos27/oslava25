@@ -7,15 +7,15 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
-  background-image: url('../../public/background.jpg');
+  background-image: url("../../public/background.jpg");
   background-size: cover;
   @media screen and (max-width: 768px) {
     background-size: auto;
-    
   }
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('../../public/background.jpg') center/cover no-repeat;
+  background: url("../../public/background.jpg") center/cover no-repeat;
   z-index: -2; /* Jde úplně dozadu */
 }
 

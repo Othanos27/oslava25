@@ -3,7 +3,7 @@
 import { styled } from "@mui/material";
 
 export function VideoSection() {
-  return <VideoContainer>tady bude cool video s Boratem</VideoContainer>;
+  return <VideoContainer>tady bude cool fotopozvanka</VideoContainer>;
 }
 
 const VideoContainer = styled("div")(

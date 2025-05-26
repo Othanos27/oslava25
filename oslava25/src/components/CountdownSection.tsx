@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 export function CountdownSection() {
   return (
     <CountdownContainer>
-      <Countdown targetDate={"2025-08-28T15:00:00"} />
+      <Countdown targetDate={"2025-08-30T15:00:00"} />
     </CountdownContainer>
   );
 }
