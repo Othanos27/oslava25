@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Oslava 50. narozenin (25 + 25) Oťas a Filda",
     images: [
       {
-        url: "/fotopozvanka.jpg",
+        url: "https://oslava25.vercel.app/fotopozvanka.jpg",
         width: 1200,
         height: 630,
         alt: "Pozvánka na oslavu 50 let",
