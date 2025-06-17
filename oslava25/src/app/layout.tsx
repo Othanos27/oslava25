@@ -14,7 +14,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "OSLAVA 50 LET",
-  description: "Oslava 50. narozenin (25 + 25) Otas a Filda",
+  description: "Oslava 50. narozenin (25 + 25) Oťas a Filda",
+  openGraph: {
+    title: "OSLAVA 50 LET",
+    description: "Oslava 50. narozenin (25 + 25) Oťas a Filda",
+    images: [
+      {
+        url: "/fotopozvanka.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pozvánka na oslavu 50 let",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
