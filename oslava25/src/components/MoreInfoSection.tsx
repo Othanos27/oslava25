@@ -35,6 +35,8 @@ export function MoreInfoSection() {
       <p>
         Těšíme se na vás a doufáme, že si to společně užijeme! Pokud máte
         jakékoliv otázky, tak se jednomu z nás ozvěte.
+        <br />
+        Oťas a Filda
       </p>
     </Wrapper>
   );
