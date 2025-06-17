@@ -26,11 +26,10 @@ export function MoreInfoSection() {
         vaší vlastní režii.
       </p>
       <br />
-      <i style={{fontSize: "12px"}}>TODO: doplnit odkazy, asi bude odkaz na slozky na google disku</i>
       <Links>
         ODKAZY:
-        <Link href="#">Instrukce k cestě</Link>
-        <Link href="#">Jak to na místě vypadá</Link>
+        <Link href="https://docs.google.com/document/d/1bqPbM2TzNOYBSw0ipcGBFhPK0zNiS3VL59rEj2UlWGM/edit?usp=sharing">Instrukce k cestě</Link>
+        <Link href="https://docs.google.com/document/d/10vpnmMOXqPp-KzlPTkHEx-gm0RMIgBuK-CHFDyzbFhU/edit?usp=sharing">Jak to na místě vypadá</Link>
       </Links>
       <br />
       <p>

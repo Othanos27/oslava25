@@ -23,8 +23,14 @@ export function FormSection() {
   );
 }
 
-const FormWrapper = styled("div")({
+const FormWrapper = styled("div")(({ theme }) => ({
   position: "relative",
   width: "100%",
   paddingTop: "69%",
-});
+  [theme.breakpoints.up("sm")]: {
+    paddingTop: "55%",
+  },
+  [theme.breakpoints.up("md")]: {
+    paddingTop: "45%",
+  },
+}));
